@@ -66,8 +66,7 @@ tl.from("#freetemphead",{
     trigger:"#freetemphead",
     scroller:"body",
     scrub:2,
-    markers:true,
-    start: "top 75%",
+    start: "top 75%"
   }
 })
 tl.from("#spandivv span",{
@@ -77,7 +76,7 @@ tl.from("#spandivv span",{
   opacity:0,
   scrollTrigger:{
     trigger:"#leftfreetemp",
-    scroller:"body",
+    scroller:"body"
   }
 })
 
